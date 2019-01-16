@@ -1,6 +1,7 @@
 {
     "name"       : "amopi/doctrine-addon",
     "type"       : "library",
+    "minimum-stability": "stable",
     "require"    : {
         "amopi/logging": "^1.1",
         "doctrine/orm" : "^2.5"
