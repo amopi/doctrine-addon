@@ -1,0 +1,14 @@
+{
+    "name"       : "amopi/doctrine-addon",
+    "type"       : "library",
+    "require"    : {
+        "amopi/logging": "^1.1",
+        "doctrine/orm" : "^2.5"
+    },
+    "autoload"   : {
+        "psr-4": {
+            "Amopi\\Mlib\\Doctrine\\"    : "src/"
+        }
+    },
+    "license"    : "MIT"
+}
